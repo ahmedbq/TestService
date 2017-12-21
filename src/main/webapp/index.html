@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>MCS Test</title>
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+<!-- jQuery -->
+<script	src="http://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.js"></script>
+<script src="main.js"></script>
+
+<!-- Latest compiled and minified JavaScript -->
+<script	src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+<!-- Bootstrap Table -->
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/bootstrap-table/1.11.1/bootstrap-table.min.css">
+
+<script	src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-table/1.11.1/bootstrap-table.min.css"></script>
+
+<script	src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-table/1.11.1/bootstrap-table.min.js"></script>
+
+
+
+</head>
+<body>
+
+	<!-- This p is to view the raw JSON file if you uncomment it in main.js --> <p id="json"></p>
+
+	<div class="container-fluid table-responsive">
+		<table id="table" class="table table-striped" data-pagination="true" data-search="true">
+			<thead>
+				<tr>
+					<th data-sortable="true" data-field="make">Make</th>
+					<th data-sortable="true" data-field="model">Model</th>
+					<th data-sortable="true" data-field="year">Year</th>
+				</tr>
+			</thead>
+		</table>
+	</div>
+
+</body>
+</html>
